@@ -1,0 +1,1201 @@
+Unity Editor version:    6000.2.9f1 (e0c4e791ab71)
+Branch:                  6000.2/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 15.3 (Build 24D60)
+Darwin version:          24.3.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Date:                    2025-11-03T23:08:36Z
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-salimanoe" at "2025-11-03T23:08:36.280789Z"
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/6000.2.9f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/salimanoe/Game Dev/My project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50961
+-licensingIpc
+LicenseClient-salimanoe
+-job-worker-count
+3
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name AssetImport
+Successfully changed project path to: /Users/salimanoe/Game Dev/My project
+/Users/salimanoe/Game Dev/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140704512834304]  Target information:
+
+Player connection [140704512834304]  * "[IP] 10.100.128.85 [Port] 0 [Flags] 2 [Guid] 3837945065 [EditorId] 3837945065 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-414.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [140704512834304] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [140704512834304] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 9.09 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.9f1 (e0c4e791ab71)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.2.9f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/salimanoe/Game Dev/My project/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 645 (low power)
+Metal devices available: 1
+0: Intel(R) Iris(TM) Plus Graphics 645 (low power)
+Using device Intel(R) Iris(TM) Plus Graphics 645 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 645
+Mac GPU Family: 2
+Apple GPU Family: 0
+MSL Version: 3.0
+Has Float MSAA: 1
+Has Float Filtering: 1
+ReadWrite Texture Tier: 1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.2.9f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.2.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.2.9f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56118
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 1892, path: "/Applications/Unity Hub.app/Contents/Frameworks/UnityLicensingClient_V1.app/Contents/MacOS/Unity.Licensing.Client")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/6000.2.9f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001737 seconds.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.3+a4e98f1
+  Session Id:              51741458695f4df19946bd6c36a9c3a8
+  Correlation Id:          24786fb9b2bdd1d6017d00721ebed103
+  External correlation Id: 3194143468464866951
+  Machine Id:              DZmoQtkwLuATNF3BKFT1qJwbuuw=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-salimanoe" (connect: 0.00s, validation: 0.01s, handshake: 1.86s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-salimanoe-notifications" at "2025-11-03T23:08:38.154229Z"
+[Licensing::Module] Licensing Background thread has ended after 1.87s
+- Loaded All Assemblies, in  1.107 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.954 seconds
+Domain Reload Profiling: 2061ms
+	BeginReloadAssembly (411ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (123ms)
+	RebuildNativeTypeToScriptingClass (39ms)
+	initialDomainReloadingComplete (143ms)
+	LoadAllAssembliesAndSetupDomain (391ms)
+		LoadAssemblies (410ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (383ms)
+			TypeCache.Refresh (378ms)
+				TypeCache.ScanAssembly (348ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (954ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (852ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (102ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (192ms)
+			ProcessInitializeOnLoadAttributes (406ms)
+			ProcessInitializeOnLoadMethodAttributes (141ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[CoreBusinessMetrics] Unexpected thread when updating session info.
+[CoreBusinessMetrics] Unexpected thread when constructing MetricsHeader.
+[CoreBusinessMetrics] Unexpected thread when constructing MetricsHeader.
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-J6TW-NBEP-WMXT-XA6M-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 1375080557117-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  2.445 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.642 seconds
+Domain Reload Profiling: 5083ms
+	BeginReloadAssembly (454ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (119ms)
+	RebuildCommonClasses (120ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (86ms)
+	LoadAllAssembliesAndSetupDomain (1746ms)
+		LoadAssemblies (1013ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (908ms)
+			TypeCache.Refresh (744ms)
+				TypeCache.ScanAssembly (692ms)
+			BuildScriptInfoCaches (123ms)
+			ResolveRequiredComponents (30ms)
+	FinalizeReload (2644ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2018ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (15ms)
+			BeforeProcessingInitializeOnLoad (505ms)
+			ProcessInitializeOnLoadAttributes (1292ms)
+			ProcessInitializeOnLoadMethodAttributes (197ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launching external process: /Applications/Unity/Hub/Editor/6000.2.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.22 seconds
+Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6139 unused Assets / (6.6 MB). Loaded Objects now: 6804.
+Memory consumption went from 132.0 MB to 125.4 MB.
+Total: 31.555510 ms (FindLiveObjects: 2.613327 ms CreateObjectMapping: 1.910109 ms MarkObjects: 18.233422 ms  DeleteObjects: 8.796230 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 9608.384141 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(052faaac586de48259a63d0c4782560b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ef9bd628977d13b6a0eacc15587720c6') in 1.694287084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000514 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '55a3a8d096c0c05f4f2641d75701118b') in 0.017607669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/TutorialInfo/Layout.wlt
+  artifactKey: Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TutorialInfo/Layout.wlt using Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bb115f8c8aabd6960249be7a5ce6c493') in 0.007783837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
+  artifactKey: Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs using Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1183551ec0742983da91c10be11458b1') in 0.047354059 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Settings/PC_Renderer.asset
+  artifactKey: Guid(f288ae1f4751b564a96ac7587541f7a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/PC_Renderer.asset using Guid(f288ae1f4751b564a96ac7587541f7a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '52c28c5f1f20e8ecab5032244612a4ec') in 0.131678255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/New Folder
+  artifactKey: Guid(dbe327d8939ba48b9b207dc119235e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder using Guid(dbe327d8939ba48b9b207dc119235e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba053b8ddfb17e609c0fba02690844cd') in 0.001675386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Settings/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9289719d70a4b77c1c1959dd1568e1cc') in 0.196178017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.968903 seconds.
+  path: Assets/Scenes/New Folder
+  artifactKey: Guid(dbe327d8939ba48b9b207dc119235e3e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/New Folder using Guid(dbe327d8939ba48b9b207dc119235e3e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e9d7d3b87a025a895f832c85d313b510') in 0.007185111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.328559 seconds.
+  path: Assets/Scenes/Background
+  artifactKey: Guid(dbe327d8939ba48b9b207dc119235e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Background using Guid(dbe327d8939ba48b9b207dc119235e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf855a4d507258f828530303304c16a8') in 0.002546672 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.702035 seconds.
+  path: Assets/Scenes/Background
+  artifactKey: Guid(dbe327d8939ba48b9b207dc119235e3e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background using Guid(dbe327d8939ba48b9b207dc119235e3e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd2c9c0ebbca3a5ce150d355a56d3f2d1') in 0.004918901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.259778 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests.zip
+  artifactKey: Guid(74255ab281d144bd8825ab8861505c5e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests.zip using Guid(74255ab281d144bd8825ab8861505c5e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f9d90e0072c4ac76085e2d5784bd85a2') in 0.024578658 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.599520 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests.zip
+  artifactKey: Guid(74255ab281d144bd8825ab8861505c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Background/Fantasy Forests.zip using Guid(74255ab281d144bd8825ab8861505c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8690cd3189c731e0d57e1b42842ec015') in 0.135638182 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.670414 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Castle 6.png
+  artifactKey: Guid(cc622afa87e1c4f239297a8fbb4b3828) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Castle 6.png using Guid(cc622afa87e1c4f239297a8fbb4b3828) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0bc6a1df6e82d5838da4092e19af8413') in 0.180927752 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Path 6.png
+  artifactKey: Guid(493d11ff0951d438198cdf5935260428) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Path 6.png using Guid(493d11ff0951d438198cdf5935260428) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c3a5c600c98798970b3b44f6b30165f6') in 0.023451232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Castle Kitchen.png
+  artifactKey: Guid(56802467c590942b4b9ee2c22eb289e2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Castle Kitchen.png using Guid(56802467c590942b4b9ee2c22eb289e2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5de4e76efe61ec35ce575a888f8e1ea5') in 0.025315428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Pink 3.png
+  artifactKey: Guid(e01336c2d906f45878f4e26706ab9743) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Pink 3.png using Guid(e01336c2d906f45878f4e26706ab9743) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9b4df850e3d0837575c7651bb23b68d9') in 0.017816927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Waterfall 1.png
+  artifactKey: Guid(d97cb8ab1f3394bcfa8cb644d06ea898) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Waterfall 1.png using Guid(d97cb8ab1f3394bcfa8cb644d06ea898) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a3101dfd64116b0b7c102b48b69412c1') in 0.021006137 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Fire 1.png
+  artifactKey: Guid(143f6c9cdeaba40afa61ec78479d947f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Fire 1.png using Guid(143f6c9cdeaba40afa61ec78479d947f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '058c4faa889370d00af7e772bcb53530') in 0.01970301 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Village 1.png
+  artifactKey: Guid(bcd9a08e87738451fb841318e7ba72df) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Village 1.png using Guid(bcd9a08e87738451fb841318e7ba72df) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '336a64ba55dfcf96b1ea48aa0401525b') in 0.015128872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Water Stream.png
+  artifactKey: Guid(2ebd90c75147c42c7920ce234249c73d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Water Stream.png using Guid(2ebd90c75147c42c7920ce234249c73d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '03b3a248ffa259af9d7961a009c56e10') in 0.014601189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Water Lake 1.png
+  artifactKey: Guid(d319f5fe6442442fb922e94b9d54533e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Water Lake 1.png using Guid(d319f5fe6442442fb922e94b9d54533e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0e31ee91dec397bbb0175335bf42fde7') in 0.016566767 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Trees 3.png
+  artifactKey: Guid(9e92817743b29435e827fb905d5f1c32) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Trees 3.png using Guid(9e92817743b29435e827fb905d5f1c32) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'de227c17d6237601e6d7cdd0b492d4d7') in 0.016216692 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Village 2.png
+  artifactKey: Guid(b711eeb9f1c094d059af8ec78bb3906d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Village 2.png using Guid(b711eeb9f1c094d059af8ec78bb3906d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eea3b01ce5e11cb5c92211845da239bc') in 0.020842753 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Castle 5.png
+  artifactKey: Guid(98cbc889d21054ddc8ab0cb60fe2ce5a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Castle 5.png using Guid(98cbc889d21054ddc8ab0cb60fe2ce5a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c2a5e8e25c2944217d75e506f9b52342') in 0.018776478 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Village 4.png
+  artifactKey: Guid(afd1e4412b47a4a37a2432277a9b9c0c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Village 4.png using Guid(afd1e4412b47a4a37a2432277a9b9c0c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3fef9f9463edae34a0541d3bb66cfac5') in 0.01538405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Path 4.png
+  artifactKey: Guid(d9cd17707b311410f80df9e81a459282) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Path 4.png using Guid(d9cd17707b311410f80df9e81a459282) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a04b452f5800af8d1ebade6d104a653f') in 0.016531009 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Village 3.png
+  artifactKey: Guid(972e28c12474f4f5bbd6e411e2038115) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Village 3.png using Guid(972e28c12474f4f5bbd6e411e2038115) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '94afecb348a15db6f4fc4d1290b7c21f') in 0.016439398 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Snow 4.png
+  artifactKey: Guid(00fe4eb15876e4f70829909ca06a8c19) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Snow 4.png using Guid(00fe4eb15876e4f70829909ca06a8c19) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd93e3d8a7455b3228a683c5f7d60a6e4') in 0.018520367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Dark 6.png
+  artifactKey: Guid(25dbdf94e80b944be819c889cd7d2061) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Dark 6.png using Guid(25dbdf94e80b944be819c889cd7d2061) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9fb54555fdb7305ff18a28ea959a5876') in 0.039075939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Ruins 2.png
+  artifactKey: Guid(3b5677c2f6bd84eb3a88500dcf8251cd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Ruins 2.png using Guid(3b5677c2f6bd84eb3a88500dcf8251cd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c2337e541dc2cbcf94fa09027f5fadfd') in 0.030559477 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Cottage Hearth.png
+  artifactKey: Guid(f3271a90d8ba142c882953a56447d1c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Cottage Hearth.png using Guid(f3271a90d8ba142c882953a56447d1c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ab3da4dedccabc79b904eee0b91198d0') in 0.023297186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Cottage 1.png
+  artifactKey: Guid(c2a7ee0ad9ed949b88531df05d788c8f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Cottage 1.png using Guid(c2a7ee0ad9ed949b88531df05d788c8f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b00606d6592a95dd73cb1b729736ff68') in 0.019054 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Cottage Windows.png
+  artifactKey: Guid(58f44cbc47dbc4626ae0b49f22328094) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Cottage Windows.png using Guid(58f44cbc47dbc4626ae0b49f22328094) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a9e4fb1333521b96a45b862017b22709') in 0.024435684 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Trees 8.png
+  artifactKey: Guid(63f062edde2704c82b7e692710a1c7ca) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Trees 8.png using Guid(63f062edde2704c82b7e692710a1c7ca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2e6981b0dae327a08006f13e5af3cb1d') in 0.019239136 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Dark 1.png
+  artifactKey: Guid(ac23e667ad1cd4b77b3f00ece7a2a3d0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Dark 1.png using Guid(ac23e667ad1cd4b77b3f00ece7a2a3d0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3f168e3ac11da7bdf44267e1763e4aae') in 0.02079989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Snow 2.png
+  artifactKey: Guid(a197f8d62ad1f4dc19f111e510231acf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Snow 2.png using Guid(a197f8d62ad1f4dc19f111e510231acf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '01743c7895b76bc23d2c38bf21eb344f') in 0.023804636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Castle 4.png
+  artifactKey: Guid(f447a9a6805844ff09c30d39b5ebf9de) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Castle 4.png using Guid(f447a9a6805844ff09c30d39b5ebf9de) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '30960300e6730f61bc4f0ddb8c93b70a') in 0.016841261 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Cottage Table 1.png
+  artifactKey: Guid(89ad001ed76774105848a941ae741026) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Cottage Table 1.png using Guid(89ad001ed76774105848a941ae741026) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6c246ab9c14ffcc82d4dc45acf645e0c') in 0.015402776 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Castle Tower.png
+  artifactKey: Guid(948f3658ae0e04c3aaf87968c95bd9f7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Castle Tower.png using Guid(948f3658ae0e04c3aaf87968c95bd9f7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8a6b07e4f0d7f3d8420a2a030ba9effd') in 0.016515071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Water River 2.png
+  artifactKey: Guid(bdfec0f9a0ed243e69bc19093645b74d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Water River 2.png using Guid(bdfec0f9a0ed243e69bc19093645b74d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '59ee5522c57bd1aa4b598408df8b89d2') in 0.013482886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Castle 1.png
+  artifactKey: Guid(61d8fb250a571402eae32f8c1bb07537) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Castle 1.png using Guid(61d8fb250a571402eae32f8c1bb07537) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a23af022ca1ac77cf76d5f3755039002') in 0.018620246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Trees 7.png
+  artifactKey: Guid(1b480cd0dce1346f4965348391bba721) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Trees 7.png using Guid(1b480cd0dce1346f4965348391bba721) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c12f1d11d31d3415f9b720363a5a27b1') in 0.019580089 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Trees 6.png
+  artifactKey: Guid(53aee068fec7241b8b8a01305899b734) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Trees 6.png using Guid(53aee068fec7241b8b8a01305899b734) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c82aa2c56b6efd9beeb85163f4cea26a') in 0.016868314 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Ruins 5.png
+  artifactKey: Guid(45d302cdb8393410ab2289b498ce7160) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Ruins 5.png using Guid(45d302cdb8393410ab2289b498ce7160) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a61173b3be381dc9626bd35700bd80c7') in 0.016414748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Cottage 7 Inn.png
+  artifactKey: Guid(e3d0d81cb64714e668f073482e4c0c85) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Cottage 7 Inn.png using Guid(e3d0d81cb64714e668f073482e4c0c85) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9e1bc34aae8743c26026fdf326b0d7e2') in 0.015326132 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Gold 2.png
+  artifactKey: Guid(4d677c10a80b8459893a532d2a0202a3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Gold 2.png using Guid(4d677c10a80b8459893a532d2a0202a3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '350359f716a9d57e4d9b44f93252bcc8') in 0.013476385 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Castle Ruins 2.png
+  artifactKey: Guid(1feb502e552b84882864f397df38fea3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Castle Ruins 2.png using Guid(1feb502e552b84882864f397df38fea3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b5e79624ee299cf44a5f1a55637c4745') in 0.017355858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Village Tavern 1.png
+  artifactKey: Guid(493bf8781ecae47dc836e3e2086e663c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Village Tavern 1.png using Guid(493bf8781ecae47dc836e3e2086e663c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5a17afabf3290cbb77ff776606515111') in 0.018713112 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Path 3.png
+  artifactKey: Guid(d05a1c41fb9454a15b027dfd9dd9f341) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Path 3.png using Guid(d05a1c41fb9454a15b027dfd9dd9f341) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a56c0ab782bf8ee8b84604381b35144b') in 0.015211258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Castle Road.png
+  artifactKey: Guid(a181e7d61a595417ea97126991e0be17) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Castle Road.png using Guid(a181e7d61a595417ea97126991e0be17) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '09c442ef6c545bdf50f22aba221b8098') in 0.0155407 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Purple 2.png
+  artifactKey: Guid(a35c89238d4d84343907273137051d10) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Purple 2.png using Guid(a35c89238d4d84343907273137051d10) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '12a13c9766e9d076148405d8e4741e6b') in 0.016326349 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Mountain 2.png
+  artifactKey: Guid(11e18e07ef19a4cada8bc22d6d0ada9f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Mountain 2.png using Guid(11e18e07ef19a4cada8bc22d6d0ada9f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a0a842044949710d3beaa02b76d5687b') in 0.015221428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Fire 2.png
+  artifactKey: Guid(2972b497659d64a9eaef6fba885391ff) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Fire 2.png using Guid(2972b497659d64a9eaef6fba885391ff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '04de135a9d8cf9738ec75c6f11dc4bab') in 0.026425761 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Castle Hallway.png
+  artifactKey: Guid(cdc60613178af47f4a775e69f27a9c20) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Castle Hallway.png using Guid(cdc60613178af47f4a775e69f27a9c20) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '98614f9fd29d145aae878bad334c867f') in 0.024248677 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Cottage Kitchen 2.png
+  artifactKey: Guid(cd10b108a67844da194d35d62f6a7247) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Cottage Kitchen 2.png using Guid(cd10b108a67844da194d35d62f6a7247) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3957bdd1db6db48740d2797ab2d8a149') in 0.01668554 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Cave.png
+  artifactKey: Guid(94d7d491fbe434a8da819667e2d55c6f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Cave.png using Guid(94d7d491fbe434a8da819667e2d55c6f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '16fc6b37c8dd750a6f963defdf7052e5') in 0.015756337 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Tower.png
+  artifactKey: Guid(152a858f6d8a745d1b4d051825becba4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Tower.png using Guid(152a858f6d8a745d1b4d051825becba4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '81e1622322142e9863a66e7ae37ebced') in 0.015321695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Clearing 5.png
+  artifactKey: Guid(2ae448f8395dd457482508b7ce547be6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Clearing 5.png using Guid(2ae448f8395dd457482508b7ce547be6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd8c217b20f74575f39a77511db922384') in 0.019202025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Trees 2.png
+  artifactKey: Guid(75158368987914436a7007585ba8c649) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Trees 2.png using Guid(75158368987914436a7007585ba8c649) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a8509b847dd425a3aaea01ae83ee1b5') in 0.020856582 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Castle 2.png
+  artifactKey: Guid(253d9af65ef0a4a859e3390ecac46c51) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Castle 2.png using Guid(253d9af65ef0a4a859e3390ecac46c51) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a9d12a13ef37fc4bbd62e849229b276f') in 0.016042699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Water Lake 2.png
+  artifactKey: Guid(94bf758d669e54b8b8cbb77d79be4185) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Water Lake 2.png using Guid(94bf758d669e54b8b8cbb77d79be4185) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4b2fde2eb4f465bc537211af1080dd70') in 0.016828289 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Village 5.png
+  artifactKey: Guid(42397615c7083494696c8f83bf480068) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Village 5.png using Guid(42397615c7083494696c8f83bf480068) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '151d9214cae89286cd43f329fa899fd2') in 0.015836942 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Castle Ballroom.png
+  artifactKey: Guid(3350d73de876244558a43b70bc78b2f2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Castle Ballroom.png using Guid(3350d73de876244558a43b70bc78b2f2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '60f33269c0657fba0419e2c994b8dc2c') in 0.015013513 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Mushrooms 1.png
+  artifactKey: Guid(6ac74155997bf4073aa7f66a15a5021e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Mushrooms 1.png using Guid(6ac74155997bf4073aa7f66a15a5021e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2f79f7195ab8dc3452f0ffdfa0c3cb7d') in 0.020135938 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Dark 2.png
+  artifactKey: Guid(aa2ff1fcdf761496f9623831e7a6dcf3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Dark 2.png using Guid(aa2ff1fcdf761496f9623831e7a6dcf3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '54005e01be912b98055fdf93a16ba538') in 0.018690957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Clearing 3.png
+  artifactKey: Guid(7c2d1c4110e154e11a8691b9cb91df7f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Clearing 3.png using Guid(7c2d1c4110e154e11a8691b9cb91df7f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4fcdd509e0a6dcdf9412977da0553a85') in 0.014708474 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Clearing 2.png
+  artifactKey: Guid(8788938e33cc74be3bbe9790c903bf75) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Clearing 2.png using Guid(8788938e33cc74be3bbe9790c903bf75) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9ca2e0d1277525aedb11bc5fb4859eba') in 0.014776599 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Mist 1.png
+  artifactKey: Guid(8d63234e56e95492881158cf7863516b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Mist 1.png using Guid(8d63234e56e95492881158cf7863516b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f864dcfa62d4b2fae6032d93432a81d2') in 0.01322377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Village 7.png
+  artifactKey: Guid(347c426e95fdb4343929662bac3c77cf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Village 7.png using Guid(347c426e95fdb4343929662bac3c77cf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '09eee963850e58691f134e53e6bab13c') in 0.017469724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Cottage Table 3.png
+  artifactKey: Guid(05678c5eec57d4b4490f3bbdf39b95e3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Cottage Table 3.png using Guid(05678c5eec57d4b4490f3bbdf39b95e3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5eb901ef5e5c5fbe655c7185ae759496') in 0.023841248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Path 1.png
+  artifactKey: Guid(ef8184afa880e472a973a50a0f33545a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Path 1.png using Guid(ef8184afa880e472a973a50a0f33545a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c3b235e381195df00cb96bc746716802') in 0.020268398 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Path 2.png
+  artifactKey: Guid(ef9d639387c044795bcf8d385af175d8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Path 2.png using Guid(ef9d639387c044795bcf8d385af175d8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '84633e9101834935a1eb08b652ae76f1') in 0.015055876 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Snow 3.png
+  artifactKey: Guid(ad0f11197b18646d2be2eb9bdd23a81b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Snow 3.png using Guid(ad0f11197b18646d2be2eb9bdd23a81b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a946f937e5ac939e32d0924d26ac603a') in 0.014005336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Castle Pathway.png
+  artifactKey: Guid(7a33d67cefc66441d96df893957c61ac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Castle Pathway.png using Guid(7a33d67cefc66441d96df893957c61ac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8ccd0a1f5e9569da0fdaa835ef6ec16b') in 0.015675227 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Road.png
+  artifactKey: Guid(fe19a13927b7e43389333bec715cca01) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Road.png using Guid(fe19a13927b7e43389333bec715cca01) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a45aaaed6d9f7999c2ab038c364f3ffb') in 0.0138804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Scenes/Background/Fantasy Forests/Clearing 1.png
+  artifactKey: Guid(07b878c959f074de890e333564f62f21) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Background/Fantasy Forests/Clearing 1.png using Guid(07b878c959f074de890e333564f62f21) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c71a25774a24131468b13e88152c7508') in 0.021662487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 5779.585509 seconds.
+  path: Assets/Scenes/Characters
+  artifactKey: Guid(9a0fa19f1cd41433498657e3dee9f76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Characters using Guid(9a0fa19f1cd41433498657e3dee9f76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '13543fc5ee1c5877bc6908a3dc7f0802') in 0.025615661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.212555 seconds.
+  path: Assets/Scenes/Characters
+  artifactKey: Guid(9a0fa19f1cd41433498657e3dee9f76e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Characters using Guid(9a0fa19f1cd41433498657e3dee9f76e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '397f51e8577f4fe2334bebe74e2f8c07') in 0.131741901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.176130 seconds.
+  path: Assets/Scenes/Characters/FlyingForestEnemies_FREE/Enemy3/Enemy3-Movement-In-Animation/Enemy3-SmashEnd.png
+  artifactKey: Guid(ba9bc62724d4048cd8903089bf6bc308) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Characters/FlyingForestEnemies_FREE/Enemy3/Enemy3-Movement-In-Animation/Enemy3-SmashEnd.png using Guid(ba9bc62724d4048cd8903089bf6bc308) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0ff43a0cfdcd75da14b6b735265ec1af') in 0.062848665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Scenes/Characters/FlyingForestEnemies_FREE/Enemy3/Enemy3-No-Movement-In-Animation/Enemy3No-Move-SmashEnd.png
+  artifactKey: Guid(a90b991b7a2b040cb9bd44fed0c7d832) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Characters/FlyingForestEnemies_FREE/Enemy3/Enemy3-No-Movement-In-Animation/Enemy3No-Move-SmashEnd.png using Guid(a90b991b7a2b040cb9bd44fed0c7d832) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '37e89faa92721d478d3eaee8166cdf18') in 0.044843443 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Scenes/Characters/FlyingForestEnemies_FREE/Enemy3/Enemy3-No-Movement-In-Animation
+  artifactKey: Guid(34247fae4e7c54c78bc32dc19f78fa95) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Characters/FlyingForestEnemies_FREE/Enemy3/Enemy3-No-Movement-In-Animation using Guid(34247fae4e7c54c78bc32dc19f78fa95) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'da4893f52559d3b0b8167b6dc2316977') in 0.007653052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Scenes/Characters/FlyingForestEnemies_FREE/Enemy3/Enemy3-Movement-In-Animation/Enemy3-Fly.png
+  artifactKey: Guid(a01da9080917b4dd99e7eafc40dacb15) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Characters/FlyingForestEnemies_FREE/Enemy3/Enemy3-Movement-In-Animation/Enemy3-Fly.png using Guid(a01da9080917b4dd99e7eafc40dacb15) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd9e7cc33ff89766b4f0cb562f7cb69c9') in 0.027022732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Scenes/Characters/FlyingForestEnemies_FREE/Enemy3/Enemy3-No-Movement-In-Animation/Enemy3No-Move-Hit.png
+  artifactKey: Guid(2d373b8192f344955979c10cd928fa30) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Characters/FlyingForestEnemies_FREE/Enemy3/Enemy3-No-Movement-In-Animation/Enemy3No-Move-Hit.png using Guid(2d373b8192f344955979c10cd928fa30) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eb06e1c14017589f790fd3b8e6369bac') in 0.025489336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Scenes/Characters/FlyingForestEnemies_FREE/Enemy3/Enemy3-No-Movement-In-Animation/Enemy3No-Move-AttackSmashStart.png
+  artifactKey: Guid(09941821d00ec44dd8c824517045e723) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Characters/FlyingForestEnemies_FREE/Enemy3/Enemy3-No-Movement-In-Animation/Enemy3No-Move-AttackSmashStart.png using Guid(09941821d00ec44dd8c824517045e723) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '15bdb8195684bba6a0ddaec120441cb5') in 0.027622304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Scenes/Characters/FlyingForestEnemies_FREE/Enemy3
+  artifactKey: Guid(9b4ae048210034102979e6b00e111d5a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Characters/FlyingForestEnemies_FREE/Enemy3 using Guid(9b4ae048210034102979e6b00e111d5a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '84135536012b9abc2c5453d9853a1abc') in 0.004914578 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Scenes/Characters/FlyingForestEnemies_FREE
+  artifactKey: Guid(dc1291e1d44474e0391dc2cdd4dbc735) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Characters/FlyingForestEnemies_FREE using Guid(dc1291e1d44474e0391dc2cdd4dbc735) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd3449bf0fe6741f5298c9397c6d7e151') in 0.018831067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Scenes/Characters/FlyingForestEnemies_FREE/Enemy3/Enemy3-Movement-In-Animation/Enemy3-Hit.png
+  artifactKey: Guid(4d20a18d32e3c407ab1eee380cf9a9be) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Characters/FlyingForestEnemies_FREE/Enemy3/Enemy3-Movement-In-Animation/Enemy3-Hit.png using Guid(4d20a18d32e3c407ab1eee380cf9a9be) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '03ca852322e6c53d7fbfba59f9c7090e') in 0.017959987 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Scenes/Characters/FlyingForestEnemies_FREE/Enemy3/Enemy3-Movement-In-Animation/Enemy3-Hit-NoVFX.png
+  artifactKey: Guid(6cef6ac8ae3554a9d96d8faf7e674de4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Characters/FlyingForestEnemies_FREE/Enemy3/Enemy3-Movement-In-Animation/Enemy3-Hit-NoVFX.png using Guid(6cef6ac8ae3554a9d96d8faf7e674de4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '889d358a2ab7d10362229dc42d591526') in 0.02204021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.890030 seconds.
+  path: Assets/Scenes/Characters/Forest_Monsters_FREE/Mushroom/Mushroom with VFX/Mushroom-Attack.png
+  artifactKey: Guid(18c906e32a1e34abc89c7e875ee6912c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Characters/Forest_Monsters_FREE/Mushroom/Mushroom with VFX/Mushroom-Attack.png using Guid(18c906e32a1e34abc89c7e875ee6912c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '693390a3366dbfaeeb1df36adce4320d') in 0.01818692 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Scenes/Characters/Forest_Monsters_FREE/Mushroom/Mushroom with VFX/Mushroom-Stun.png
+  artifactKey: Guid(9b665fa3edba8424980f2797dc13dbc1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Characters/Forest_Monsters_FREE/Mushroom/Mushroom with VFX/Mushroom-Stun.png using Guid(9b665fa3edba8424980f2797dc13dbc1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c25bd95c28c93fa2abaa41165fdd634d') in 0.018164596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Scenes/Characters/Forest_Monsters_FREE/Mushroom/Mushroom without VFX/Mushroom-Attack.png
+  artifactKey: Guid(7cee223ebb28f4e698925e91189ed4ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Characters/Forest_Monsters_FREE/Mushroom/Mushroom without VFX/Mushroom-Attack.png using Guid(7cee223ebb28f4e698925e91189ed4ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aea2802a983e3e3187304c3785aad372') in 0.016301592 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Scenes/Characters/Forest_Monsters_FREE/Mushroom
+  artifactKey: Guid(bfbb541451bc84e6b852055e87c0cc0e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Characters/Forest_Monsters_FREE/Mushroom using Guid(bfbb541451bc84e6b852055e87c0cc0e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd5a84520fc1e33a36b7e6aa35f795875') in 0.006774349 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Scenes/Characters/Forest_Monsters_FREE/Mushroom/Mushroom with VFX/Mushroom-Die.png
+  artifactKey: Guid(8054f42f5673f4ff7bc31c24bbf0e892) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Characters/Forest_Monsters_FREE/Mushroom/Mushroom with VFX/Mushroom-Die.png using Guid(8054f42f5673f4ff7bc31c24bbf0e892) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'faefae56636ffc2a95ab032a2edde282') in 0.042558155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Scenes/Characters/Forest_Monsters_FREE/Mushroom/Mushroom without VFX/Mushroom-Run.png
+  artifactKey: Guid(036ef7d58f4494407aa332b6f1c6c638) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Characters/Forest_Monsters_FREE/Mushroom/Mushroom without VFX/Mushroom-Run.png using Guid(036ef7d58f4494407aa332b6f1c6c638) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '33f4eb7ed120a06f527b0bc5ab30008a') in 0.015401642 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Scenes/Characters/Forest_Monsters_FREE/Mushroom/Mushroom with VFX/Mushroom-AttackWithStun.png
+  artifactKey: Guid(65ec4d0cd57da49fa89a76ab1296808d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Characters/Forest_Monsters_FREE/Mushroom/Mushroom with VFX/Mushroom-AttackWithStun.png using Guid(65ec4d0cd57da49fa89a76ab1296808d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '92483606645371d2dd318af18d79300f') in 0.016152174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Scenes/Characters/Forest_Monsters_FREE/Mushroom/Mushroom with VFX
+  artifactKey: Guid(9d1d109c97e524e8cb6a0e7325dc8c46) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Characters/Forest_Monsters_FREE/Mushroom/Mushroom with VFX using Guid(9d1d109c97e524e8cb6a0e7325dc8c46) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a7563d18a0160fc9b077469082dee42a') in 0.006728279 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Scenes/Characters/Forest_Monsters_FREE/Mushroom/Mushroom without VFX/Mushroom-Die.png
+  artifactKey: Guid(7cdc1281030cc4d7ba19b64e10c2ba8a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Characters/Forest_Monsters_FREE/Mushroom/Mushroom without VFX/Mushroom-Die.png using Guid(7cdc1281030cc4d7ba19b64e10c2ba8a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd5d743c74db31468385aa3640f176d5e') in 0.015292797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 1.15 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6131 unused Assets / (4.8 MB). Loaded Objects now: 6808.
+Memory consumption went from 135.4 MB to 130.6 MB.
+Total: 328.165017 ms (FindLiveObjects: 3.367590 ms CreateObjectMapping: 1.591024 ms MarkObjects: 317.122321 ms  DeleteObjects: 6.081549 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 2876.521785 seconds.
+  path: Assets/Scenes/Characters/NewEmptyCSharpScript.cs
+  artifactKey: Guid(a568792a5e94f407ab80a7aa1db42789) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Characters/NewEmptyCSharpScript.cs using Guid(a568792a5e94f407ab80a7aa1db42789) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f0e225f3a2bd366ce9c82ce692aa72d0') in 0.047161945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-J6TW-NBEP-WMXT-XA6M-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 1375080557117-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  2.724 seconds
+Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.627 seconds
+Domain Reload Profiling: 4360ms
+	BeginReloadAssembly (1212ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (79ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (525ms)
+	RebuildCommonClasses (124ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (86ms)
+	LoadAllAssembliesAndSetupDomain (1280ms)
+		LoadAssemblies (999ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (548ms)
+			TypeCache.Refresh (33ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (471ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (1628ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1233ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (279ms)
+			ProcessInitializeOnLoadAttributes (803ms)
+			ProcessInitializeOnLoadMethodAttributes (128ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (32ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 1.06 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6135 unused Assets / (7.3 MB). Loaded Objects now: 6825.
+Memory consumption went from 145.8 MB to 138.5 MB.
+Total: 23.136640 ms (FindLiveObjects: 1.455577 ms CreateObjectMapping: 1.419956 ms MarkObjects: 13.486146 ms  DeleteObjects: 6.773399 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 23.632915 seconds.
+  path: Assets/Scenes/Characters/NewEmptyCSharpScript.cs
+  artifactKey: Guid(a568792a5e94f407ab80a7aa1db42789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Characters/NewEmptyCSharpScript.cs using Guid(a568792a5e94f407ab80a7aa1db42789) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '877727f5ca0e1a46b87fbddb768cc38f') in 0.004539362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.96 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6129 unused Assets / (8.0 MB). Loaded Objects now: 6825.
+Memory consumption went from 137.5 MB to 129.5 MB.
+Total: 18.888571 ms (FindLiveObjects: 1.045412 ms CreateObjectMapping: 1.351862 ms MarkObjects: 9.654430 ms  DeleteObjects: 6.835363 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.631328 seconds.
+  path: Assets/Scenes/Characters/TestScript.cs
+  artifactKey: Guid(a568792a5e94f407ab80a7aa1db42789) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Characters/TestScript.cs using Guid(a568792a5e94f407ab80a7aa1db42789) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3521d42f9e22cc46d62a5b0d82159da9') in 0.652851844 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.937 seconds
+Refreshing native plugins compatible for Editor in 2.57 ms, found 1 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.214 seconds
+Domain Reload Profiling: 5162ms
+	BeginReloadAssembly (974ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (36ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (389ms)
+	RebuildCommonClasses (132ms)
+	RebuildNativeTypeToScriptingClass (41ms)
+	initialDomainReloadingComplete (135ms)
+	LoadAllAssembliesAndSetupDomain (1664ms)
+		LoadAssemblies (1297ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (694ms)
+			TypeCache.Refresh (41ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (595ms)
+			ResolveRequiredComponents (33ms)
+	FinalizeReload (2215ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1580ms)
+			LogAssemblyErrors (1ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (30ms)
+			BeforeProcessingInitializeOnLoad (601ms)
+			ProcessInitializeOnLoadAttributes (796ms)
+			ProcessInitializeOnLoadMethodAttributes (139ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 1.11 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6135 unused Assets / (6.9 MB). Loaded Objects now: 6828.
+Memory consumption went from 143.5 MB to 136.7 MB.
+Total: 17.919294 ms (FindLiveObjects: 1.003007 ms CreateObjectMapping: 1.604736 ms MarkObjects: 9.802644 ms  DeleteObjects: 5.507740 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 26.744704 seconds.
+  path: Assets/Scenes/Characters/TestScript.cs
+  artifactKey: Guid(a568792a5e94f407ab80a7aa1db42789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Characters/TestScript.cs using Guid(a568792a5e94f407ab80a7aa1db42789) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a4a1c08af478ca967889f8abd4302d7') in 0.008477377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
